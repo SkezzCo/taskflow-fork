@@ -1,4 +1,5 @@
 // Task management module
+// Consider adding a maximum limit for labels (e.g., 5 per task)
 class Task {
     constructor(title, description) {
         this.id = Date.now();
